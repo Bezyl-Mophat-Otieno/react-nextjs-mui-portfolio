@@ -100,7 +100,7 @@ export default function WorkPageClient() {
                   variant="contained"
                   endIcon={<FileDownloadOutlined />}
                   onClick={() =>
-                    window.open("/assets/Resume-Mark-Aloo.pdf", "_blank")
+                    window.open("/assets/Bezyl-Mophat-Otieno-Resume.pdf", "_blank")
                   }
                 >
                   Resume

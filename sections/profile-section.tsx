@@ -2,6 +2,7 @@
 
 import { appBarHeight } from "@/utilities/constants";
 import { profile } from "@/utilities/content";
+import profileImage from "@/public/images/profile.jpg";
 import {
   Box,
   Container,
@@ -46,7 +47,7 @@ export default function ProfileSection() {
         <Box sx={{ height: appBarHeight }} />
         <Stack spacing={2} alignItems="center">
           <Image
-            src={gravatarUrl}
+            src={profileImage}
             alt="Vercel Logo"
             width={imageSize}
             height={imageSize}

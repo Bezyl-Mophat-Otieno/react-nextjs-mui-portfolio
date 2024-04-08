@@ -37,15 +37,15 @@ export const testimonials: Testimonial[] = [
 
 export const profile: Profile = {
   primaryColor: "#22C55E",
-  url: "thecodeinfluencer.dev",
-  name: "Mark Aloo",
-  title: "Mark Aloo - Portfolio",
-  tagline: "Frontend developer and Designer",
-  work: "Frontend Engineer at Safaricom PLC",
+  url: "mophat.dev",
+  name: "Bezyl Mophat Otieno",
+  title: "Mophat - Portfolio",
+  tagline: "Backend Software Developer and Quality Engineer.",
+  work: "Associate Software Engineer at GriffinsGlobal Technologies",
   description:
     "I design and create beautiful web and mobile apps, speak, tweet and blog a lot about tech",
   gravatarUrl:
-    "https://gravatar.com/avatar/7a76f3703c41097061ed71d0139ba9396c8470c6e27c88bafd5c0190d50d3641?size=1024",
+    "",
   socials: {
     twitter: "https://twitter.com/codeinfluencer/",
     linkedIn: "https://www.linkedin.com/in/thecodeinfluencer/",
@@ -60,22 +60,20 @@ export const profile: Profile = {
     { label: "React.js", category: "frameworks" },
     { label: "Next.js", category: "frameworks" },
     { label: "Express.js", category: "frameworks" },
-    { label: "React Native", category: "frameworks" },
-    { label: "Expo", category: "frameworks" },
-    { label: "Apollo GraphQL", category: "frameworks" },
+    { label: "Nest.js", category: "frameworks" },
+    { label: "ASP.NET", category: "frameworks" },
+    { label: "Angular", category: "frameworks" },
 
     { label: "Git", category: "tools" },
     { label: "MongoDB", category: "tools" },
     { label: "Firebase", category: "tools" },
-    { label: "OpenShift", category: "tools" },
+    { label: "MSSQL", category: "tools" },
     { label: "Docker", category: "tools" },
     { label: "Figma", category: "tools" },
-    { label: "AWS", category: "tools" },
+    { label: "Azure", category: "tools" },
 
-    { label: "JavaScript", category: "languages" },
-    { label: "TypeScript", category: "languages" },
-    { label: "HTML", category: "languages" },
-    { label: "CSS", category: "languages" },
+    { label: "JavaScript/TypeScript", category: "languages" },
+    { label: "C#", category: "languages" },
     { label: "Java", category: "languages" },
     { label: "Python", category: "languages" },
     { label: "Node.js", category: "languages" },
@@ -88,18 +86,22 @@ export const profile: Profile = {
 
 export const experience: Experience[] = [
   {
-    role: "Software Engineer",
-    company: "Safaricom PLC",
-    startDate: "Jan 2023",
+    role: " Associate Software Engineer",
+    company: "Griffins Global Technologies",
+    startDate: "March 2024",
     endDate: "Present",
-    duration: "12 Mos",
+    duration: "2 years",
     type: "Contract",
-    location: "Nairobi, Kenya",
+    location: "Nyeri, Kenya",
     highlights: [
-      "Built a web portal to help team managers manage field engineers and site details",
-      "Built a web portal to help manage changes and rollbacks",
+      `Played a key role in implementing and crafting intuitive
+       user experiences for A-Closer-Look, focusing on enhancing
+       customer feedback processes`,
+      `Built custom features aligned with A-Closer-Look's business
+       needs, with a strong emphasis on data security and
+       robustness.`,
     ],
-    tags: ["React", "Next.js", "Typescript", "OpenShift", "UIPath"],
+    tags: ["React", "Next.js", "Javascript", "C#", "MSSQL"],
     links: [
       { label: "DigiSOC", url: "https://diginoc.safaricom.co.ke/" },
       {
@@ -109,18 +111,22 @@ export const experience: Experience[] = [
     ],
   },
   {
-    role: "Sr Frontend Developer",
-    company: "Minet Kenya",
-    startDate: "Sep 2022",
-    endDate: "Dec 2022",
-    duration: "4 Mos",
+    role: "Software Developer (Intern)",
+    company: "THE  Jitu",
+    startDate: "Dec 2023",
+    endDate: "March 2023",
+    duration: "3 Mos",
     type: "Contract",
-    location: "Nairobi, Kenya",
+    location: "Nyeri, Kenya",
     highlights: [
-      "Built a web application to manage insurance",
-      "Built a cross platform mobile app for members to get insurance services",
+      `Collaborated with a cross-functional team of developers, designers, and stakeholders to develop a
+       comprehensive Teaching Management System.`,
+      `Collaborated with
+      team members to design and implement a real-time notification feature using SignalR, enabling
+      trainers within the system to receive instant updates.
+      `,
     ],
-    tags: ["React", "React Native", "Typescript", "AntDesign"],
+    tags: ["React", "Nextjs", "Typescript", "ASP.NET7","MSSQL"],
     links: [
       {
         label: "Faru Health",
@@ -129,19 +135,23 @@ export const experience: Experience[] = [
     ],
   },
   {
-    role: "Software Developer",
-    company: "Safaricom PLC",
-    startDate: "Mar 2022",
-    endDate: "Aug 2022",
-    duration: "6 Mos",
+    role: "Data Entry Specialist",
+    company: "THE Jitu",
+    startDate: "Oct 2023",
+    endDate: "Nov 2023",
+    duration: "1 Mos",
     type: "Contract",
-    location: "Nairobi, Kenya",
+    location: "Nyeri, Kenya",
     highlights: [
-      "Developed `Mali` investment MPesa mini app ",
-      "Developed UI/UX for Daraja developers' portal",
-      "Architectured solutions for Daraja developers' portal",
+      `Assisted in the implementation of data migration processes from Procore to Sage Intacct, ensuring accuracy
+       and integrity throughout the transition`,
+      `Collaborated with the HR department to streamline pre-boarding processes for new data entry employees,
+       facilitating a smooth onboarding experience`,
+      `Conducted comprehensive data quality checks and validations to ensure the accuracy and completeness of
+       migrated data.
+        `,
     ],
-    tags: ["JavaScript", "Solutions Architecture", "UI/UX", "Figma"],
+    tags: ["SageIntacct", "Procore", "Jira",],
     links: [
       {
         label: "Daraja Developers' Portal",
@@ -150,33 +160,39 @@ export const experience: Experience[] = [
     ],
   },
   {
-    role: "Lead Frontend Developer",
-    company: "BitNorm",
-    startDate: "Feb 2022",
-    endDate: "Apr 2021",
-    duration: "11 Mos",
-    type: "Full-time",
-    location: "Netherlands . Remote",
+    role: "Software Development Trainer.",
+    company: "ConsoliData-LTD",
+    startDate: "Jan 2023",
+    endDate: "March 2023",
+    duration: "3 Mos",
+    type: "Part-time",
+    location: "Kisii, Kenya",
     highlights: [
-      "Built the bitnorm.com website (17k active users)",
-      "Led, defined and prioritized projects and tasks for 5 team members",
+      `Worked for ConsuliData in tutoring students who have registered for the web development course on their
+       online platform.`,
+      "Evaluated students learning Web development through simple projects deployed on GitHub",
+      `Designed a curriculum to be taught in two weeks for students registered for Web development online courses
+       on their platform`
     ],
-    tags: ["JavaScript", "Solutions Architecture", "UI/UX", "Figma"],
+    tags: ["JavaScript", "Git", "Github", "React"],
     links: [{ label: "BitNorm Website", url: "https://bitnorm.com/" }],
   },
   {
-    role: "Frontend Developer",
-    company: "Spacious Place",
-    startDate: "Sep 2020",
-    endDate: "Nov 2020",
-    duration: "3 Mos",
-    type: "Internship",
-    location: "Nairobi, Kenya",
+    role: "Software Developer",
+    company: "Bubble Bursts",
+    startDate: "Oct 2022",
+    endDate: "Jan 2023",
+    duration: "4 Mos",
+    type: "Voluntary",
+    location: "Kisii, Kenya",
     highlights: [
-      "Built and maintained the company website and graphics",
-      "Provided thoughtful consultancy on technical issues and opportunities",
+      `Developing a stock management system: My primary task was to create a web-based inventory management
+       system that would enable the company to keep track of its stock levels, sales, and orders`,
+      `Implementation and maintenance: Once the stock management system was developed, I was responsible for
+       deploying it and ensuring that it was running smoothly. I had to provide ongoing maintenance and support to
+       ensure that the system remained functional and efficient.`,
     ],
-    tags: ["JavaScript", "HTML", "CSS", "Graphic Design", "Figma"],
+    tags: ["Python", "Django", "SQL Lite",],
     links: [
       {
         label: "Spacious Place Website",

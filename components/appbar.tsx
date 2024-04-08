@@ -69,7 +69,7 @@ export default function AppBar() {
               sx={{ display: { xs: "none", sm: "block" } }}
               onClick={() => router.push("/")}
             >
-              @thecodeinfluencer
+              @mophat.dev
             </Button>
             <Stack
               direction="row"
